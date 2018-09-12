@@ -5,14 +5,12 @@ using DL.AspNetIdentity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace MvcRestaurant.Models
+namespace DL.Contexts
 {
-    // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
-
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("RestaurantContext", throwIfV1Schema: false)
+            : base(AppConfiguration.AspIdentityConnectionString, throwIfV1Schema: false)
         {
         }
 
