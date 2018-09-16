@@ -212,6 +212,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Dame.jpg" />
+    <Content Include="Content\Images\Bote.jpg" />
+    <Content Include="Content\Images\Goce.jpg" />
+    <Content Include="Content\Images\Marko.jpg" />
+    <Content Include="Content\Images\Zharko.jpg" />
     <Content Include="Content\modern-business.css" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-grid.css" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap-grid.min.css" />
